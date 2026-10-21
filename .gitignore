@@ -1,0 +1,30 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Jupyter
+.ipynb_checkpoints/
+
+# R session files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Generated outputs (the notebook recreates them)
+outputs/tables/*
+outputs/graphs/*
+!outputs/**/.gitkeep
+
+# macOS
+.DS_Store
+
+# Personal notes
+notes_*.txt
